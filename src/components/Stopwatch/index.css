@@ -1,0 +1,119 @@
+/* Write CSS here */
+.app-container {
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 700px;
+  width: 1140px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-size: cover;
+  padding-left: 120px;
+}
+@media screen and (max-width: 568px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 700px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.box-container {
+  height: 250px;
+  width: 245px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+@media screen and (max-width: 568px) {
+  .box-container {
+    height: 200px;
+    width: 195px;
+    align-self: center;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 700;
+  color: #333333;
+}
+@media screen and (max-width: 568px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 6px;
+}
+
+.stop-watch {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 568px) {
+  .button {
+    font-size: 8px;
+    margin-top: 0px;
+  }
+}
+
+.start {
+  background-color: #1db05f;
+}
+
+.stop {
+  background-color: #ef0d36;
+}
+
+.reset {
+  background-color: #eaa800;
+}
